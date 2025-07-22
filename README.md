@@ -6,16 +6,15 @@ Run the command:
 python3 -m venv .venv
 ```
 
+Activate venv:
+```bash
+source .venv/bin/activate
+```
+
 ## Apache Airflow Installation
 Load environment variables:
 ```bash
 source constraints.sh
-```
-
-Download  the file ```constraints.txt```:
-
-```bash
-wget $CONSTRAINT_URL
 ```
 
 Or install Airflow with pip:
