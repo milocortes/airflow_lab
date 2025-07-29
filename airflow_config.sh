@@ -1,2 +1,3 @@
 #!/bin/bash
-AIRFLOW_CONFIG="$HOME/airflow/dags"
+AIRFLOW_HOME="$HOME/airflow"
+AIRFLOW_DAGS="$AIRFLOW_HOME/dags"
