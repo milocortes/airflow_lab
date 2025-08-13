@@ -7,4 +7,6 @@ requires-python = ">=3.11"
 dependencies = [
     "apache-airflow>=3.0.3",
     "apache-airflow-providers-fab>=2.3.0",
+    "fastapi[standard]>=0.116.1",
+    "psycopg2>=2.9.10",
 ]
